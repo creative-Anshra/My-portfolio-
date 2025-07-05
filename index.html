@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anshra Khan | Web Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #f0f4f8;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #4CAF50, #2e7d32);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    section {
+      background: white;
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    h2 {
+      color: #2e7d32;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      list-style: circle;
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1em;
+    }
+
+    form input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    form input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    .whatsapp-button {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .whatsapp-button:hover {
+      background-color: #1ebe5d;
+    }
+
+    @media screen and (max-width: 600px) {
+      header h1 {
+        font-size: 1.8em;
+      }
+      section {
+        margin: 15px;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Anshra Khan</h1>
+    <p>Web Developer | Freelancer</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>Hello! I am Anshra, a passionate web developer currently learning HTML, CSS, and building websites step by step. I love helping others and bringing creative ideas to life on the web.</p>
+  </section>
+
+  <section>
+    <h2>My Skills</h2>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>Responsive Web Design</li>
+      <li>Typing (50+ WPM)</li>
+      <li>Basic Canva Design</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>My Projects</h2>
+    <ul>
+      <li><a href="#" target="_blank">Personal Portfolio Website</a></li>
+      <li><a href="#" target="_blank">Button Design Demo</a></li>
+      <li><a href="#" target="_blank">Simple Contact Form</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <input type="submit" value="Send Message" />
+    </form>
+  </section>
+
+  <section>
+    <h2>Contact via WhatsApp</h2>
+    <a class="whatsapp-button" href="https://wa.me/923133900571" target="_blank">
+      Message Me on WhatsApp
+    </a>
+  </section>
+
+</body>
+</html>
